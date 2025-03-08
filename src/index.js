@@ -6,9 +6,9 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  // <React.StrictMode> ///////INTENTIOLLY COMMENT CONSOLE VALUE NOT SHOW TWO TIMES
+    <App name="Anuj" Age={25}/>
+  // </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
